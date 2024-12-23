@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Standup Comedy",
+    "time": "10:00-12:00",
+    "description": "A live standup comedy by Samay Raina",
+    "location": "City Stadium",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "totalSeats": 20,
+    "availableSeats": 20
+  },
+  {
+    "id": 2,
+    "name": "Dance Concert",
+    "time": "12:00-2:00",
+    "description": "A live dance concert",
+    "location": "Ravindra Kalakshetra",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "totalSeats": 20,
+    "availableSeats": 20
+  },
+  {
+    "id": 3,
+    "name": "Theatre Event",
+    "time": "3:00-5:00",
+    "description": "A live drama performed by a troop of people",
+    "location": "Leela Palace",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "totalSeats": 20,
+    "availableSeats": 20
+  },
+  {
+    "id": 4,
+    "name": "Music Concert",
+    "time": "5:00-7:00",
+    "description": "A live concert performed by Sonu Nigam",
+    "location": "Chinnasamy Stadium",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "totalSeats": 20,
+    "availableSeats": 20
+  },
+  {
+    "id": 5,
+    "name": "Art Exhibition",
+    "time": "7:00-10:00",
+    "description": "An exhibition showcasing modern art",
+    "location": "Art Gallery",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "totalSeats": 20,
+    "availableSeats": 20
+  }
+]
