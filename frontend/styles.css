@@ -1,0 +1,315 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background: #f8f8f8;
+    padding: 1rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+nav a:hover, nav a[aria-current="page"] {
+    background: #ddd;
+}
+
+/* Container for main content */
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Event Cards Layout */
+.events {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.event {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.event:hover {
+    transform: scale(1.05);
+}
+
+/* Event Content Layout */
+.event-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Event Details Styling */
+.event-details {
+    flex: 1;
+    text-align: left;
+}
+
+.event-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.event-details p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Event Image Styling */
+.event-image {
+    flex-shrink: 0;
+    margin-left: 1rem;
+}
+
+.event-image img {
+    max-width: 150px;
+    max-height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Button Styling */
+.button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background: #45a049;
+}
+
+/* Footer Styling */
+footer {
+    background: #f1f1f1;
+    color: #333;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles for smaller devices */
+@media (max-width: 1024px) {
+    .event {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .event-image {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .event-details {
+        padding-right: 0;
+    }
+
+    .events {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .event {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .event-image {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 3px solid #388E3C;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: #ffffff;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover,
+nav a[aria-current="page"] {
+    background-color: #e0e0e0;
+}
+
+/* Main Container */
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #f8f8f8;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Button Styles */
+.button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.button:hover {
+    background-color: #388E3C;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+/* Responsive Styles for smaller devices */
+@media (max-width: 768px) {
+    .container {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+
+    .form {
+        gap: 1.5rem;
+    }
+
+    .button {
+        font-size: 1rem;
+    }
+}
+
+.event-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.event-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.event-details .button {
+    margin-top: auto; /* This will push the button to the bottom */
+    width: 110px;
+    align-content: center;
+}
